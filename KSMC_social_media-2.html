@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مدينة الملك سعود الطبية</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+:root{--bg:#F2F5F9;--card:#FFF;--navy:#0B1D35;--blue:#1266B5;--blue-dark:#083D6E;--teal:#4A9EA0;--gray:#6B7B8D;--shadow:rgba(8,61,110,0.08)}
+@media(prefers-color-scheme:dark){:root{--bg:#0A1320;--card:#111E30;--navy:#E0EAF4;--gray:#7A8FA4;--shadow:rgba(0,0,0,0.3)}.link-icon.x{background:#E0EAF4!important;color:#0A1320!important}}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Plus Jakarta Sans",sans-serif;background:var(--bg);color:var(--navy);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:16px}
+.page{max-width:440px;width:100%}
+.hero{background:linear-gradient(145deg,#083D6E 0%,#1266B5 55%,#4A9EA0 100%);border-radius:28px;padding:40px 28px 32px;text-align:center;position:relative;overflow:hidden;margin-bottom:14px}
+.hero::before{content:"";position:absolute;top:-50%;right:-30%;width:80%;height:160%;background:radial-gradient(ellipse,rgba(255,255,255,0.06) 0%,transparent 70%);pointer-events:none}
+.hero-logo{width:110px;height:auto;margin-bottom:20px;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.2));position:relative;z-index:1}
+.hero-title{color:#fff;font-size:20px;font-weight:800;line-height:1.4;margin-bottom:4px;position:relative;z-index:1}
+.hero-title-ar{color:rgba(255,255,255,0.85);font-size:15px;font-weight:600;position:relative;z-index:1}
+.links{display:flex;flex-direction:column;gap:10px}
+.link-card{display:flex;align-items:center;gap:14px;background:var(--card);border-radius:18px;padding:16px 18px;text-decoration:none;color:var(--navy);box-shadow:0 2px 12px var(--shadow);transition:all .2s;border:1.5px solid transparent}
+.link-card:hover{transform:translateY(-2px);box-shadow:0 6px 24px var(--shadow);border-color:var(--blue)}
+.link-icon{width:48px;height:48px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:22px;color:#fff;flex-shrink:0}
+.link-icon.instagram{background:linear-gradient(135deg,#F58529,#DD2A7B,#8134AF,#515BD4)}
+.link-icon.youtube{background:#FF0000}
+.link-icon.x{background:var(--navy)}
+.link-icon.website{background:linear-gradient(135deg,#083D6E,#4A9EA0)}
+.link-info{flex:1;min-width:0}
+.link-name{font-size:15px;font-weight:700;margin-bottom:2px}
+.link-handle{font-size:12px;color:var(--gray);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.link-arrow{color:var(--gray);font-size:14px;flex-shrink:0;transition:transform .2s}
+.link-card:hover .link-arrow{transform:translateX(3px);color:var(--blue)}
+.footer{text-align:center;padding:20px 0 8px;font-size:11px;color:var(--gray)}
+@media(max-width:400px){.hero{padding:32px 20px 26px;border-radius:22px}.hero-logo{width:90px}.hero-title{font-size:18px}.link-card{padding:14px;gap:12px;border-radius:14px}.link-icon{width:42px;height:42px;font-size:19px;border-radius:12px}}
+</style>
+</head>
+<body>
+<div class="page">
+<div class="hero">
+<img class="hero-logo" src="https://pfst.cf2.poecdn.net/base/image/eba403641b07d749a9671d2d6c856ba5859b6c839def22d425cc6d236fbad59c?w=586&h=407" alt="KSMC Logo">
+<div class="hero-title">King Saud Medical City</div>
+<div class="hero-title-ar">مدينة الملك سعود الطبية</div>
+</div>
+<div class="links">
+<a class="link-card" href="https://www.ksmc.med.sa/Portal/" target="_blank" rel="noopener"><div class="link-icon website"><i class="fas fa-globe"></i></div><div class="link-info"><div class="link-name">Official Website</div><div class="link-handle">www.ksmc.med.sa</div></div><i class="fas fa-chevron-right link-arrow"></i></a>
+<a class="link-card" href="https://www.instagram.com/ksmc_2030?igsh=MWZnZzF6eHJ4NnVlMA==" target="_blank" rel="noopener"><div class="link-icon instagram"><i class="fab fa-instagram"></i></div><div class="link-info"><div class="link-name">Instagram</div><div class="link-handle">@ksmc_2030</div></div><i class="fas fa-chevron-right link-arrow"></i></a>
+<a class="link-card" href="https://youtube.com/@ksmcmedia?si=Ws2TSlQYaMG7t7w7" target="_blank" rel="noopener"><div class="link-icon youtube"><i class="fab fa-youtube"></i></div><div class="link-info"><div class="link-name">YouTube</div><div class="link-handle">@ksmcmedia</div></div><i class="fas fa-chevron-right link-arrow"></i></a>
+<a class="link-card" href="https://x.com/ksmcmedia?s=21&t=749YoA0_2kicJrsauN0L-A" target="_blank" rel="noopener"><div class="link-icon x"><i class="fab fa-x-twitter"></i></div><div class="link-info"><div class="link-name">X (Twitter)</div><div class="link-handle">@ksmcmedia</div></div><i class="fas fa-chevron-right link-arrow"></i></a>
+</div>
+<div class="footer">King Saud Medical City &bull; مدينة الملك سعود الطبية</div>
+</div>
+</body>
+</html>
